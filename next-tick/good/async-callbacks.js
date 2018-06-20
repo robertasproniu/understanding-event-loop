@@ -5,7 +5,7 @@
  * @param callback
  */
 function asyncFake(data, callback) {
-  if(!data) {
+  if (!data) {
     callback(null, false);
     return;
   }
